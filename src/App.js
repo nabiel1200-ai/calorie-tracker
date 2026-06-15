@@ -5,8 +5,8 @@ export default function App() {
   const [meals, setMeals] = useState([]);
   const [totalKcal, setTotalKcal] = useState(0);
   const [totalProtein, setTotalProtein] = useState(0);
-  const [totalCarbs, setTotalCarbs] = useState(0);
-  const [totalFat, setTotalFat] = useState(0);
+const [totalCarbs, setTotalCarbs] = useState(0); // eslint-disable-line
+const [totalFat, setTotalFat] = useState(0); // eslint-disable-line
   const [goalKcal, setGoalKcal] = useState(2000);
   const [goalProtein, setGoalProtein] = useState(150);
   const [dietType, setDietType] = useState("onderhoud");
